@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Avant-Garde Lamp",
+    "company": "Modenza",
+    "description": "Een unieke en moderne lamp die kunst en functionaliteit combineert. Perfect voor eigentijdse interieurs en voegt een vleugje creativiteit en sfeer toe aan je woonruimte.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/943150/pexels-photo-943150.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 150,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Chic Chair",
+    "company": "Luxora",
+    "description": "Een slanke en stijlvolle stoel die elegantie in elke kamer brengt. Ontworpen met comfort en design in gedachten, perfect voor je woonkamer of kantoorruimte.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/5705090/pexels-photo-5705090.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 200,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Comfy Bed",
+    "company": "Homestead",
+    "description": "Ervaar ultieme ontspanning met dit zachte en ondersteunende bed. Ontworpen om elke nacht comfort en een goede nachtrust te bieden, terwijl het je slaapkamer een stijlvolle uitstraling geeft.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 700,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Contemporary Sofa",
+    "company": "Comfora",
+    "description": "Een moderne sofa met strakke lijnen en zachte kussens. Ideaal voor woonkamers of lounges en biedt een perfecte balans tussen stijl en comfort voor dagelijks gebruik.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 800,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Minimalist Desk",
+    "company": "NordicHome",
+    "description": "Een strak, minimalistisch bureau dat perfect is voor thuiskantoren of creatieve werkplekken. Het eenvoudige ontwerp houdt je werkruimte georganiseerd en past harmonieus in moderne interieurs.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 250,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Elegant Bookshelf",
+    "company": "BookNest",
+    "description": "Een hoge en elegante boekenkast, ideaal voor het tonen van boeken, planten en decoratie. Combineert duurzaamheid met een tijdloos ontwerp dat in elke kamer past.",
+    "featured": true,
+    "image": "https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 180,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Cozy Armchair",
+    "company": "Relaxio",
+    "description": "Een zachte en uitnodigende fauteuil die van elke hoek een perfecte leesplek maakt. Gemaakt voor comfort, met een modern ontwerp dat past bij elk interieur.",
+    "featured": false,
+    "image": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "price": 220,
+    "clerkId": "clerkId"
+  },
+  {
+  "name": "Rustic Coffee Table",
+  "company": "WoodCraft",
+  "description": "Een prachtige rustieke salontafel gemaakt van duurzaam hout. Brengt warmte en karakter in je woonkamer en past perfect bij zowel moderne als traditionele interieurs.",
+  "featured": true,
+  "image": "https://images.pexels.com/photos/890669/pexels-photo-890669.jpeg?_gl=1*xubnxk*_ga*MTg2MjE4NDc2Mi4xNzYzODkzOTU1*_ga_8JE65Q40S6*czE3NjM4OTM5NTQkbzEkZzEkdDE3NjM4OTM5OTgkajE2JGwwJGgw",
+  "price": 320,
+  "clerkId": "clerkId"
+}
+]
