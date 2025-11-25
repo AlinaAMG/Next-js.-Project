@@ -4,15 +4,15 @@ import Link from 'next/link';
 
 const Logo = () => {
   return (
-    <div className="flex flex-col">
-      <Button size="icon" asChild>
+    <div className="flex items-center gap-x-3">
+      <Button size="icon-lg" asChild>
         <Link href="/">
-          <AiFillHome className="text-white" />
+          <AiFillHome className="size-6" />
         </Link>
       </Button>
-      <span className="text-md font-semibold italic text-gray-600">
-        HomeVibes
-      </span>
+      <Link href="/">
+        <span className="text-xl font-bold italic text-primary">HomeVibes</span>
+      </Link>
     </div>
   );
 };
