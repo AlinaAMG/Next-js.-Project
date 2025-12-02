@@ -5,6 +5,7 @@ import { formatCurrency } from '@/utils/format';
 import FavoriteToggleButton from '@/components/products/FavoriteToggleButton';
 import AddToCart from '@/components/single-product/AddToCart';
 import ProductRating from '@/components/single-product/ProductRating';
+import ShareButton from '@/components/single-product/ShareButton';
 
 const ProductDetailsPage = async ({ params }: { params: { id: string } }) => {
   const { id } = params;
@@ -26,22 +27,23 @@ const ProductDetailsPage = async ({ params }: { params: { id: string } }) => {
             className="w-full rounded object-cover"
           />
         </div>
-              {/* PRODUCT INFO SECOND COL */}
-              <div>
-                  <div className="flex gap-x-8 items-center">
-                      <h1 className="capitalize text-3xl font-bold">{name}</h1>
-                      <FavoriteToggleButton productId={id} />
-                  </div>
-                  <ProductRating productId={id} />
-                  <h4 className="text-xl mt-2">{company}</h4>
-                  <p className="mt-3 text-md bg-muted inline-block p-2 rounded">
-                      {eurosAmount}
-                  </p>
-                  <p className="mt-6 leading-8 text-muted-foreground">
-                      {description}
-                  </p>
-                  <AddToCart />
-              </div>
+        {/* PRODUCT INFO SECOND COL */}
+        <div>
+          <div className="flex gap-x-8 items-center">
+            <h1 className="capitalize text-3xl font-bold">{name}</h1>
+            <div className="flex items-center gap-x-2">
+              <FavoriteToggleButton productId={id} />
+              <ShareButton productId={id} name={name} />
+            </div>
+          </div>
+          <ProductRating productId={id} />
+          <h4 className="text-xl mt-2">{company}</h4>
+          <p className="mt-3 text-md bg-muted inline-block p-2 rounded">
+            {eurosAmount}
+          </p>
+          <p className="mt-6 leading-8 text-muted-foreground">{description}</p>
+          <AddToCart />
+        </div>
       </div>
     </section>
   );

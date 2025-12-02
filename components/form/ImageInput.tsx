@@ -1,0 +1,17 @@
+import { Input } from '../ui/input';
+import { Label } from '../ui/label';
+
+const ImageInput = ({ required = true }: { required?: boolean }) => {
+  const name = 'image';
+
+  return (
+    <div className="mb-2">
+      <Label htmlFor={name} className="capitalize">
+        Image
+      </Label>
+      <Input id={name} name={name} type="file" required={required} accept="image/*" />
+    </div>
+  );
+};
+
+export default ImageInput;

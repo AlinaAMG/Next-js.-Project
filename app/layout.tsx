@@ -13,6 +13,15 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Next Store App',
+  icons: {
+    icon: [
+      {
+        url: '/icon-40x40.png',
+        sizes: '40x40',
+        type: 'image/png',
+      },
+    ],
+  },
   description: 'A nifty store built with Next.js ',
 };
 
