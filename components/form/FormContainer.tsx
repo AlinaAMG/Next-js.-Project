@@ -27,10 +27,6 @@ const FormContainer = ({
     }
   }, [state]);
 
-  return (
-    <form action={formAction} method="post" encType="multipart/form-data">
-      {children}
-    </form>
-  );
+  return <form action={formAction}>{children}</form>;
 };
 export default FormContainer;

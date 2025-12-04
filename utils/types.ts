@@ -1,13 +1,15 @@
 
 export type FormState = {
-  message: string;
-  errors?: { [key: string]: string[]; }
-}
+  message: string | undefined;
+  errors?: { [key: string]: string[] };
+};
 
 export type actionFunction = (
   prevState: FormState,
   formData: FormData
 ) => Promise<FormState>;
+
+
 
 export type CartItem = {
   productId: string;

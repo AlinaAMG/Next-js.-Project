@@ -1,23 +1,15 @@
 import { Button } from "@/components/ui/button";
-
-// const AddToCart = ({productId}:{productId:string}) => {
-//   return (
-//     <Button className="capitalize mt-8" size="lg">
-//       add To cart
-//     </Button>
-//   )
-// }
-
-// export default AddToCart
-
-
+import { FiShoppingCart } from 'react-icons/fi';
 
 const AddToCart = () => {
   return (
-     <Button className="capitalize mt-8" size="lg">
-      add To cart
-    </Button>
-  )
-}
+    <div className="relative inline-block ">
+      <Button className="capitalize mt-8  flex gap-x-6 " size="xl">
+        <FiShoppingCart className="absolute left-2 " />
+        <p>add To cart</p>
+      </Button>
+    </div>
+  );
+};
 
 export default AddToCart

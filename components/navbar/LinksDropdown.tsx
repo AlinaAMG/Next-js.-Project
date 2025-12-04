@@ -13,15 +13,19 @@ import UserIcon from './UserIcon';
 import { SignedIn, SignedOut, SignInButton, SignUpButton } from '@clerk/nextjs';
 import SignOutLink from './SignOutLink';
 import { auth } from '@clerk/nextjs/server';
+import UserInitial from './UserInitial';
 
 function LinksDropdown() {
   const { userId } = auth();
+
   const isAdmin = userId === process.env.ADMIN_USER_ID;
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="flex gap-4 max-w-[100px]">
+        <Button variant="outline" className="flex gap-4 max-w-[300px]">
           <LuAlignLeft className="w-6 h-6" />
+          <UserInitial />
           <UserIcon />
         </Button>
       </DropdownMenuTrigger>

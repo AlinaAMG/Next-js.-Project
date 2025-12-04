@@ -13,10 +13,10 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'gllkscbkndfpubsadlhh.supabase.co',
+        hostname: 'bjffdqgpdyeuvytpnnyn.supabase.co',
       },
     ],
   },
 };
 
-module.exports = nextConfig; //
+module.exports = nextConfig; 
