@@ -18,7 +18,7 @@ const Hero = () => {
           tot tijdloze designs — bij ons vind je alles om jouw thuis
           persoonlijk, warm en uniek te maken.
         </p>
-        <Button asChild size="lg" className="mt-10">
+        <Button asChild size="xl" className="mt-10">
           <Link href="/products" className="text-white">
             Our products
           </Link>

@@ -22,7 +22,7 @@ const ProductDetailsPage = async ({ params }: { params: { id: string } }) => {
       <BreadCrumbs name={name} />
       <div className="mt-6 grid gap-y-8 lg:grid-cols-2 lg:gap-x-16">
         {/*IMAGE FIRST COL  */}
-        <div className="relative h-[400px] w-full">
+        <div className="relative h-[500px] w-full">
           <Image
             src={image}
             alt={name}
@@ -47,7 +47,7 @@ const ProductDetailsPage = async ({ params }: { params: { id: string } }) => {
             {eurosAmount}
           </p>
           <p className="mt-6 leading-8 text-muted-foreground">{description}</p>
-          <AddToCart />
+          <AddToCart productId={id} />
         </div>
       </div>
       {/* REVIEWS SECTION */}

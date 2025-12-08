@@ -3,23 +3,25 @@
 import { ReloadIcon } from '@radix-ui/react-icons';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { SignInButton } from '@clerk/nextjs';
+import { SignInButton, SignInWithMetamaskButton } from '@clerk/nextjs';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import { FaRegTrashAlt } from 'react-icons/fa';
 import { FiEdit } from 'react-icons/fi';
 import { useFormStatus } from 'react-dom';
 
-type btnSize = 'default' | 'lg' | 'sm';
+type btnSize = 'default' | 'lg' | 'sm' | 'xl' | 'icon';
 type SubmitButtonProps = {
   className?: string;
   text?: string;
   size?: btnSize;
+  children?: React.ReactNode;
 };
 
 export function SubmitButton({
   className = '',
   text = 'submit',
   size = 'lg',
+  children,
 }: SubmitButtonProps) {
   const { pending } = useFormStatus();
   return (
@@ -35,7 +37,10 @@ export function SubmitButton({
           Please wait...
         </>
       ) : (
-        text
+        <>
+          {text}
+          {children}
+        </>
       )}
     </Button>
   );
@@ -103,5 +108,15 @@ export const CardSubmitButton = ({ isFavorite }: { isFavorite: boolean }) => {
         <FaRegHeart />
       )}
     </Button>
+  );
+};
+
+export const ProductSignInButton = () => {
+  return (
+    <SignInButton mode="modal">
+      <Button type="button" className="mt-8 capitalize">
+        sign in
+      </Button>
+    </SignInButton>
   );
 };

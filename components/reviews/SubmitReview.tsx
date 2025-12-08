@@ -18,8 +18,8 @@ const SubmitReview = ({ productId }: { productId: string }) => {
   return (
     <div>
       <Button
-        size="lg"
-        className="capitalize mt-16"
+        size="xl"
+        className="capitalize mt-16 p-6"
         onClick={() => setIsReviewFormVisible(!isReviewFormVisible)}
       >
         leave review
@@ -40,10 +40,8 @@ const SubmitReview = ({ productId }: { productId: string }) => {
               labelText="feedback"
               defaultValue="Outstanding product!!"
             />
-           
-             
-              <SubmitButton className="mt-4 " />
-            
+
+            <SubmitButton size="xl" className="mt-4" />
           </FormContainer>
         </Card>
       )}
