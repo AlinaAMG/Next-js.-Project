@@ -3,11 +3,15 @@
 
 ## Live Demo  https://next-js-project-storeapp.vercel.app
 
-[Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/homepage.png)
+![Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/homepage.png)
 
-[Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/detailspage.png)
+![Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/detailspage.png)
 
-[Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/productsspage.png)
+![Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/productsspage.png)
+
+![Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/cartpage.png)
+
+![Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/dashboard.png)
 
 HomeVibes is een moderne, feature-rijke e-commerce applicatie gewijd aan het aanbieden van de nieuwste en mooiste producten voor in huis. Het project is gebouwd op de Next.js App Router en volgt de beste praktijken van de moderne webontwikkeling, met een sterke nadruk op prestaties, veiligheid en een uitstekende gebruikerservaring.
 
