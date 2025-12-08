@@ -1,7 +1,7 @@
 
-### HomeVibes
+## HomeVibes
 
-## Live Demo  https://next-js-project-storeapp.vercel.app
+### Live Demo  https://next-js-project-storeapp.vercel.app
 
 ![Next.js App](https://github.com/AlinaAMG/Next-js.-Project/blob/master/public/images/homepage.png)
 
